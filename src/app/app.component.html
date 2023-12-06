@@ -1,82 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Our Team</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            background-color: #f4f4f4;
-        }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #f4f4f4;
+      }
 
-        .main {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 20px;
-            text-align: center;
-        }
+      .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        text-align: center;
+      }
 
-        .content {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
+      .content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
 
-        .team-member {
-            margin: 10px;
-            text-align: center;
-        }
+      .team-member {
+        margin: 10px;
+        text-align: center;
+      }
 
-        .team-member img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-bottom: 10px;
-        }
+      .team-member img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+      }
 
-        .team-member p {
-            margin: 0;
-        }
+      .team-member p {
+        margin: 0;
+      }
 
-        h1 {
-            color: #333;
-            margin-bottom: 20px;
-        }
-        .initials{
-          font-size: 24px;
-        }
-        .role{
-          font-size: 18px;
-        }
+      h1 {
+        color: #333;
+        margin-bottom: 20px;
+      }
+      .initials {
+        font-size: 24px;
+      }
+      .role {
+        font-size: 18px;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <main class="main">
-        <h1>Квадрат і Прямокутник</h1>
-        <div class="content">
-            <div class="team-member">
-                <img src="\assets\images\erikh.jpg" alt="Team Member 1">
-                <p class = "initials" >Erikh Petrushynets</p>
-                <p class = "role" >Designer</p>
-            </div>
+      <h1>Квадрат і Прямокутник</h1>
+      <div class="content">
+        <div class="team-member">
+          <img src="\assets\images\erikh.jpg" alt="Team Member 1" />
+          <p class="initials">Erikh Petrushynets</p>
+          <p class="role">Designer</p>
         </div>
-        <div class="content">
-            <div class="team-member">
-                <img src="\assets\images\veronika.jpj" alt="Team Member 1">
-                <p class = "initials" >Moroz Veronika</p>
-                <p class = "role" >Project Manager</p>
-            </div>
+        <div class="team-member">
+          <img src="\assets\image\tima.jpg" alt="Team Member 2" />
+          <p class="initials">Tymofii Nasobko</p>
+          <p class="role">BA</p>
         </div>
+        <div class="team-member">
+          <img src="\assets\images\veronika.jpj" alt="Team Member 1">
+          <p class = "initials" >Moroz Veronika</p>
+          <p class = "role" >Project Manager</p>
+        </div>
+      </div>
     </main>
     <router-outlet></router-outlet>
-</body>
-
+  </body>
 </html>
